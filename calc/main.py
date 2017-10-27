@@ -1,20 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf8
 
-prec = 0.00305
-# Konstanten Deklaration
-MomAbMin1 = 790     # Minimales Abtriebsmoment Gang 1, Nm
-DrehAbMin1 = 360    # Minimale Abtriebsdrehzahl Gang 1, 1/min
-DrehAbMin2 = 900    # Minimale Abtriebsdrehzahl Gang 2, 1/min
-DrehAbTol = 2       # Toleranz der Abtriebsdrehzahlen nach oben, %
-Modul = 5           # Normalmodul, mm
-z1 = 17             # Zähnezahl Zahnrad 1, 1
-AbstW1W2Min = 124   # Abstand zwischen Welle 1 und Welle 2, mm
-AbstW1W2Tol = 0.5   # Toleranz des Abstandes zwischen Welle 1 und Welle 2, %
-BemLeisMotor = 7.5  # Bemessungsleistung des Motors, kW
-DrehMotor = 1445    # Drehzahl des Motors, 1/min
-WirkMotor = 87      # Wirkungsgrad des Motors bei 100%, %
-
+from vars import *
+from helpers import *
 
 # Konstanten Umrechnung nach SI
 # 1/min -> 1/s
@@ -50,15 +38,16 @@ for z2 in range(1,300):
         for z3 in range(1,300):
             Uber23 = z3/z2
             Uber13 = Uber12 * Uber23
-            if ((1-prec) * UberGesMax1 <= Uber13 <= UberGesMin1 * (1+prec)):
+            if (frange(Uber13 , UberGesMin1 , UberGesMax1)):
                  for z4 in range(1,300):
                      for z5 in range(1,300):
                          Uber45 = z5/z4
                          Uber15 = Uber12 * Uber45
-                         if ((1-prec) * UberGesMax2 <= Uber15 <= UberGesMin2 * (1+prec)):
+                         if (frange(Uber15 , UberGesMin2 , UberGesMax2)):
                              Abstand23 = Modul * (z2 + z3) / 2
                              Abstand45 = Modul * (z4 + z5) / 2
-                             if (abs(Abstand45 - Abstand23) <= 1/1000):
+                             if (Abstand45 == Abstand23):
+                                 zahne = [z1 , z2 , z3 , z4 , z5]
                                  print ("-----------------------")
                                  print ("Ergebnis \n")
                                  print ("Übersetzung (Gang 1):" , Uber13)
@@ -67,7 +56,12 @@ for z2 in range(1,300):
                                  print ("Abstand der Wellen 2 und 3:" , Abstand23)
                                  print ("Querverschub zwischen z3 und z5:" , Abstand23 - Abstand45 , "\n")
                                  print("Zähnezahlen")
-                                 print ("\n Z1:" , z1 , "\n Z2:" , z2 , "\n Z3:" , z3 , "\n Z4:" , z4 , "\n Z5:" , z5)
+                                 for i in range(0,5):
+                                     print ("\n Zahnrad" , i+1 , zahne[i])
+                                 print("Durchmesser und Radien in mm")
+                                 for i in range(0,5):
+                                     print ("\n Zahnrad" , i+1 , (zahne[i] / Modul) * 1000)
+                                # print ("Moment Gang 2")
                                  print ("-----------------------")
 
 
