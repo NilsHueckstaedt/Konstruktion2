@@ -4,16 +4,8 @@
 from vars import *
 from helpers import *
 
-# Konstanten Umrechnung nach SI
-# 1/min -> 1/s
-DrehAbMin1 = DrehAbMin1/60
-DrehAbMin2 = DrehAbMin2/60
-DrehMotor = DrehMotor/60
-# mm -> m
-Modul = Modul/1000
-AbstW1W2Min = AbstW1W2Min/1000
 # kW -> W
-BemLeisMotor = BemLeisMotor * 1000
+
 
 
 # Berechnung resultierender Konstanten, alle SI
