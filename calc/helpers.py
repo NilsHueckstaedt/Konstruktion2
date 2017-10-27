@@ -6,5 +6,3 @@ def frange (val , bor1 , bor2):
         return True
     else:
         return False
-
-def mintosec
