@@ -11,6 +11,11 @@ def UmtoUs (Umin):
     Us  = Umin/60
     return Us
 
+def UstoUm (Us):
+    """Function converts U/s to U/min."""
+    Umin  = Us * 60
+    return Umin
+
 def mmtom (mm):
     """Function converts mm to m."""
     m = mm/1000
@@ -18,7 +23,7 @@ def mmtom (mm):
 
 def mtomm (m):
     """Function converts m to mm."""
-    mm= m * 1000
+    mm = m * 1000
     return mm
 
 
@@ -36,5 +41,11 @@ def abst (z1 , z2):
 def radius (z):
     """Function calculates the radius of a gear"""
     from vars import Modul
-    rad = z / Modul
+    rad = z * Modul / 2
     return rad
+
+def moment (dreh):
+    """Function calculates the Moment from a given rotation"""
+    from vars import Leistung
+    mom = Leistung / dreh
+    return mom
