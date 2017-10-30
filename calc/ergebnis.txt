@@ -1,24 +1,24 @@
 -----------------------
 Ergebnis 
 
-Abstände Welle 2 und Welle 3 152.5 150.0
+Abstände Welle 2 und Welle 3 255.0 255.0
 Übersetzungen
 
- Übersetzung (Gang 1): 1.5882352941176472
+ Übersetzung (Gang 1): 4.059
 
- Übersetzung (Gang 2): 3.979411764705882
+ Übersetzung (Gang 2): 1.659
 
- Übersetzung z1 zu z2: 1.9411764705882353
+ Übersetzung z1 zu z2: 1.941
 
- Übersetzung z2 zu z3: 0.8181818181818182
+ Übersetzung z2 zu z3: 2.091
 
- Übersetzung z4 zu z5: 2.05 
+ Übersetzung z4 zu z5: 0.855 
 
 Abstände in mm
 
  Abstand der Wellen 1 und 2: 125.0
 
- Abstand der Wellen 2 und 3: 150.0 
+ Abstand der Wellen 2 und 3: 255.0 
 
 Zähnezahlen
 
@@ -26,11 +26,11 @@ Zähnezahlen
 
  Zahnrad 2 33
 
- Zahnrad 3 27
+ Zahnrad 3 69
 
- Zahnrad 4 20
+ Zahnrad 4 55
 
- Zahnrad 5 41
+ Zahnrad 5 47
 
 Radien und Durchmesser in mm
 
@@ -38,49 +38,49 @@ Radien und Durchmesser in mm
 
  Zahnrad 2 82.5 | 165.0
 
- Zahnrad 3 67.5 | 135.0
+ Zahnrad 3 172.5 | 345.0
 
- Zahnrad 4 50.0 | 100.0
+ Zahnrad 4 137.5 | 275.0
 
- Zahnrad 5 102.50000000000001 | 205.00000000000003
+ Zahnrad 5 117.5 | 235.0
 
 Drehzahlen in 1/min
 
  Antrieb 1445.0
 
- Abtrieb Gang 1 909.8148148148148
+ Abtrieb Gang 1 356.014
 
- Abtrieb Gang 2 363.1189948263119 
+ Abtrieb Gang 2 871.099 
 
 Moment in Nm
 
- Antrieb 1445.0
+ Antrieb 270.934
 
- Abtrieb Gang 1 430.3073478526359
+ Abtrieb Gang 1 1099.674
 
- Abtrieb Gang 2 1078.1589660085488
+ Abtrieb Gang 2 449.432
 -----------------------
 -----------------------
 Ergebnis 
 
-Abstände Welle 2 und Welle 3 250.0 250.0
+Abstände Welle 2 und Welle 3 257.5 257.5
 Übersetzungen
 
- Übersetzung (Gang 1): 3.941176470588235
+ Übersetzung (Gang 1): 4.118
 
- Übersetzung (Gang 2): 1.5882352941176472
+ Übersetzung (Gang 2): 1.629
 
- Übersetzung z1 zu z2: 1.9411764705882353
+ Übersetzung z1 zu z2: 1.941
 
- Übersetzung z2 zu z3: 2.0303030303030303
+ Übersetzung z2 zu z3: 2.121
 
- Übersetzung z4 zu z5: 0.8181818181818182 
+ Übersetzung z4 zu z5: 0.839 
 
 Abstände in mm
 
  Abstand der Wellen 1 und 2: 125.0
 
- Abstand der Wellen 2 und 3: 250.0 
+ Abstand der Wellen 2 und 3: 257.5 
 
 Zähnezahlen
 
@@ -88,11 +88,11 @@ Zähnezahlen
 
  Zahnrad 2 33
 
- Zahnrad 3 67
+ Zahnrad 3 70
 
- Zahnrad 4 55
+ Zahnrad 4 56
 
- Zahnrad 5 45
+ Zahnrad 5 47
 
 Radien und Durchmesser in mm
 
@@ -100,29 +100,29 @@ Radien und Durchmesser in mm
 
  Zahnrad 2 82.5 | 165.0
 
- Zahnrad 3 167.5 | 335.0
+ Zahnrad 3 175.0 | 350.0
 
- Zahnrad 4 137.5 | 275.0
+ Zahnrad 4 140.0 | 280.0
 
- Zahnrad 5 112.5 | 225.0
+ Zahnrad 5 117.5 | 235.0
 
 Drehzahlen in 1/min
 
  Antrieb 1445.0
 
- Abtrieb Gang 1 366.64179104477614
+ Abtrieb Gang 1 350.929
 
- Abtrieb Gang 2 909.8148148148148 
+ Abtrieb Gang 2 886.937 
 
 Moment in Nm
 
- Antrieb 1445.0
+ Antrieb 270.934
 
- Abtrieb Gang 1 1067.7997150417261
+ Abtrieb Gang 1 1115.612
 
- Abtrieb Gang 2 430.3073478526359
+ Abtrieb Gang 2 441.407
 -----------------------
 Tatsächliche Leistung im Getriebe 6525.0 W
-Übersetzungsspektrum Gang 1 (ges): zwischen 3.935185185185185 und 4.013888888888888
-Übersetzungsspektrum Gang 2 (ges): zwischen 1.574074074074074 und 1.6055555555555554
-Achsenabstand Welle 1 und 2: zwischen 124.0 und 124.61999999999998 mm
+Übersetzungsspektrum Gang 1 (ges): zwischen 4.159 und 4.014
+Übersetzungsspektrum Gang 2 (ges): zwischen 1.664 und 2 3
+Achsenabstand Welle 1 und 2: zwischen 124.0 und 124.62 mm
