@@ -1,12 +1,68 @@
------------------------
-Ergebnis 
+Abstände Welle 2 und Welle 3 155.0 152.5
+Übersetzungen
 
+ Übersetzung (Gang 1, rechts): 4.076
+
+ Übersetzung (Gang 2, links): 1.647
+
+ Übersetzung z1 zu z2: 1.941
+
+ Übersetzung z2 zu z3: 0.848
+
+ Übersetzung z4 zu z5: 2.1 
+
+Abstände in mm
+
+ Abstand der Wellen 1 und 2: 125.0
+
+ Abstand der Wellen 2 und 3: 152.5 
+
+Zähnezahlen
+
+ Zahnrad 1 17
+
+ Zahnrad 2 33
+
+ Zahnrad 3 28
+
+ Zahnrad 4 20
+
+ Zahnrad 5 42
+
+Radien und Durchmesser in mm
+
+ Zahnrad 1 42.5 | 85.0
+
+ Zahnrad 2 82.5 | 165.0
+
+ Zahnrad 3 70.0 | 140.0
+
+ Zahnrad 4 50.0 | 100.0
+
+ Zahnrad 5 105.0 | 210.0
+
+Drehzahlen in 1/min
+
+ Antrieb 1445.0
+
+ Abtrieb Gang 1 877.321
+
+ Abtrieb Gang 2 354.473 
+
+Moment in Nm
+
+ Antrieb 270.934
+
+ Abtrieb Gang 1 446.245
+
+ Abtrieb Gang 2 1104.456
+-----------------------
 Abstände Welle 2 und Welle 3 255.0 255.0
 Übersetzungen
 
- Übersetzung (Gang 1): 4.059
+ Übersetzung (Gang 1 , links): 4.059
 
- Übersetzung (Gang 2): 1.659
+ Übersetzung (Gang 2 , rechts): 1.659
 
  Übersetzung z1 zu z2: 1.941
 
@@ -60,15 +116,12 @@ Moment in Nm
 
  Abtrieb Gang 2 449.432
 -----------------------
------------------------
-Ergebnis 
-
 Abstände Welle 2 und Welle 3 257.5 257.5
 Übersetzungen
 
- Übersetzung (Gang 1): 4.118
+ Übersetzung (Gang 1 , links): 4.118
 
- Übersetzung (Gang 2): 1.629
+ Übersetzung (Gang 2 , rechts): 1.629
 
  Übersetzung z1 zu z2: 1.941
 
@@ -124,5 +177,5 @@ Moment in Nm
 -----------------------
 Tatsächliche Leistung im Getriebe 6525.0 W
 Übersetzungsspektrum Gang 1 (ges): zwischen 4.159 und 4.014
-Übersetzungsspektrum Gang 2 (ges): zwischen 1.664 und 2 3
+Übersetzungsspektrum Gang 2 (ges): zwischen 1.664 und 1.606
 Achsenabstand Welle 1 und 2: zwischen 124.0 und 124.62 mm
